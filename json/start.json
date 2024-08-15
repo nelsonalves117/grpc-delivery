@@ -1,0 +1,13 @@
+{
+  "orderId": "order123",
+  "customerId": "customer456",
+  "restaurantId": "restaurant789",
+  "driverId": "driver012",
+  "deliveryLocation": {
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  "itemIds": ["item1", "item2", "item3"],
+  "orderTime": "2023-10-01T12:00:00Z",
+  "status": "ACCEPTED"
+}
