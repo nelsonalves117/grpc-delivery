@@ -11,7 +11,6 @@ COPY binaries /app/binaries
 COPY json /app/json
 COPY scripts /app/scripts
 
-
 RUN chmod +x /app/scripts/*
 
 RUN apt-get update && apt-get install -y curl
